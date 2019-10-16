@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #33475b;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  position:relative;
+}
+
+.container:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.topbar {
+  background-color: #F5F8FA;
+  line-height: 75px;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+.top_left {
+  float: left;
+  width: 30%;
+}
+
+.top_right {
+  float: right;
+}
+
+.top_left ul,.top_right ul {
+  list-style-type: none;
+}
+
+.globe_unit{
+  padding-top: 25px;
+  margin-right: 5px;
+  display: inline;
+}
+
+.lang{
+  border-right: 2px solid #cbd6e2;
+}
+
+li i {
+  position: absolute;
+  top: 26px;
+  color: #7C98B6;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  color: #516374;
+  text-decoration: none;
+}
+
+.lang_menu {
+  padding-right: 20px;
+}
+
+button {
+ text-decoration: none;
+ font-family: 'Montserrat', sans-serif;
+ border: 1px solid #ff7a59;
+ border-radius: 2px;
+ padding: 9px 16px;
+}
+
+#login{
+  margin: 0 5px 0 5px;
+  background-color: #FFF8F6;
+  color: #ff7a59;
+}
+
+.orange_button {
+  background-color: #ff7a59;
+  color: #FFF8F6;
+}
+
+.mgn_access {
+  position: relative;
+  top:  28px;
+}
+
+.menu {
+  background-color: white;
+  line-height: 75px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.top_left a img {
+  vertical-align: middle;
+}
+
+.jumbo {
+  height: 650px;
+  line-height: 2;
+  background-image: url("https://i.postimg.cc/cdBXbBNz/Immagine.png");
+  background-repeat: no-repeat;
+  background-size: 100% 650px;
+}
+
+.jum_right{
+  float: left;
+  width: 50%;
+}
+
+.jum_right h1 {
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.jum_right p{
+  margin: 16px 0;
+}
+
+.jum_right button {
+  padding: 26px 48px;
+  font-size: 16px;
+}
+
+.jumbo_details {
+  width: 35%;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.content {
+  background-color: #F5F8FA;
+}
+
+.rubix {
+  height: 450px;
+  position: relative;
+}
+
+.rubix .container{
+  height: 80%;
+}
+
+.rubix_first_half{
+  height: 80%;
+}
+
+.rubimg {
+  width: 260px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.rubix h1,.rubix p{
+  text-align: center;
+}
+
+.rubix h1{
+  margin-bottom: 20px;
+}
+
+.rubix p{
+  line-height: 1.5;
+}
