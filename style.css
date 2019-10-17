@@ -143,7 +143,7 @@ li a {
 
 .content {
   background-color: #F5F8FA;
-
+  height: 1450px;
 }
 
 .rubix {
@@ -184,7 +184,7 @@ li a {
 .features {
   max-width: 1000px;
   margin: auto;
-  padding: 0 25px 25px 25px;
+  padding: 0 40px 40px 40px;
 }
 
 .crm {
@@ -316,4 +316,68 @@ li a {
 .mid-col {
   margin-left: 4.5%;
   margin-right: 4.5%;
+}
+
+.bluestrip {
+  height: 880px;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: #FFFFFF;
+  padding: 100px 0;
+}
+
+.bluestrip h1,.bluestrip p{
+  text-align: center;
+  margin: 0 80px;
+  line-height: 1.5;
+}
+
+.bluestrip p{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.line {
+  height: 180px;
+  position: relative;
+
+}
+
+.block {
+  width: 25%;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  padding: 30px;
+  display: inline-block;
+}
+
+.topblock {
+  border-top: 0px;
+}
+
+.bleft{
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.block h2{
+  font-size: 46px;
+  margin: 5px auto 5px auto;
+}
+
+.block span{
+  font-size: 12px;
+  margin
+}
+
+div .line{
+  font-size:0;
+}
+
+.topmidblock {
+  border-right:0;
+}
+
+.botblock {
+  border-top:0;
+  border-bottom:0;
 }
