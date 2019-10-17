@@ -412,7 +412,7 @@ div .line{
 }
 
 .jumbot{
-  width: 70%;
+  width: 60%;
   position: relative;
 }
 
@@ -420,6 +420,6 @@ div .line{
   width: 350px;
   position: absolute;
   top: 54%;
-  left: 100%;
+  left: 82%;
   transform: translate(-50%,-50%);
 }
