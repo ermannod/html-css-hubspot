@@ -34,10 +34,12 @@ body {
 
 .top_right {
   float: right;
+  width:70%
 }
 
 .top_left ul,.top_right ul {
   list-style-type: none;
+  float: right;
 }
 
 .globe_unit{
@@ -108,9 +110,11 @@ li a {
   vertical-align: middle;
 }
 
-.jumbo {
-  height: 650px;
+.jumbo{
   line-height: 2;
+  height: 650px;
+}
+.jumboimg {
   background-image: url("https://i.postimg.cc/cdBXbBNz/Immagine.png");
   background-repeat: no-repeat;
   background-size: 100% 650px;
@@ -380,4 +384,42 @@ div .line{
 .botblock {
   border-top:0;
   border-bottom:0;
+}
+
+.block h2:after{
+  content: "+";
+  font-size: 16px;
+  position: absolute;
+  bottom: 72px;
+  font-weight: 100;
+}
+
+.brands{
+  padding: 110px 30px;
+}
+
+.brands .block{
+  padding:0;
+  border:0px;
+}
+
+.brandslogo {
+  height: 13px;
+}
+
+.brands .line{
+  height: 80px;
+}
+
+.jumbot{
+  width: 70%;
+  position: relative;
+}
+
+.dudepic{
+  width: 350px;
+  position: absolute;
+  top: 54%;
+  left: 100%;
+  transform: translate(-50%,-50%);
 }
